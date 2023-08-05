@@ -8,7 +8,8 @@ disable = [
         "invalid-name",
         "duplicate-code",
         "redefined-builtin",
-        "too-many-arguments"
+        "too-many-arguments",
+        "import-error"
 ]
 
 good-names = [
