@@ -47,6 +47,7 @@ def predict(img):
         img:(np array): numpy array of image
 
     returns:class_names, and pred (dict): result of model prediction
+
     """
     img = preprocess_image(img)
     pred = model.predict(img)
